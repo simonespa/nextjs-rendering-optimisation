@@ -1,0 +1,68 @@
+{
+  "property": "some value",
+  "data": [
+    {
+      "type": "module",
+      "id": "module_1",
+      "status": "ok",
+      "style": "subscribable",
+      "urns": {
+        "polling": "urn:fake:polling",
+        "pagination": "urn:fake:pagination"
+      },
+      "data": [
+        {
+          "type": "title_item",
+          "subscribed": false,
+          "id": "title_item_1",
+          "title": {
+            "short": "Short title 1",
+            "medium": "Medium title for item one",
+            "long": "This is the long title for the fake static item one"
+          }
+        },
+        {
+          "type": "title_item",
+          "subscribed": false,
+          "id": "title_item_2",
+          "title": {
+            "short": "Short title 2",
+            "medium": "Medium title for item two",
+            "long": "This is the long title for the fake static item two"
+          }
+        },
+        {
+          "type": "title_item",
+          "subscribed": false,
+          "id": "title_item_3",
+          "title": {
+            "short": "Short title 3",
+            "medium": "Medium title for item three",
+            "long": "This is the long title for the fake static item three"
+          }
+        }
+      ]
+    },
+    {
+      "type": "module",
+      "id": "module_2",
+      "status": "ok",
+      "style": "subscribable",
+      "urns": null,
+      "data": [
+        {
+          "type": "text_item",
+          "subscribed": true,
+          "id": "text_item_1",
+          "text": "Greatest properly off ham exercise all. Unsatiable invitation its possession nor off. All difficulty estimating unreserved increasing the solicitude. Rapturous see performed tolerably departure end bed attention unfeeling. On unpleasing principles alteration of. Be at performed preferred determine collected. Him nay acuteness discourse listening estimable our law. Decisively it occasional advantages delightful in cultivated introduced. Like law mean form are sang loud lady put."
+        },
+        {
+          "type": "text_item",
+          "subscribed": false,
+          "id": "text_item_2",
+          "text": "Do to be agreeable conveying oh assurance. Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the. Abode stuff noisy manor blush yet the far. Up colonel so between removed so do. Years use place decay sex worth drift age. Men lasting out end article express fortune demands own charmed. About are are money ask how seven."
+        }
+      ]
+    }
+  ]
+}
